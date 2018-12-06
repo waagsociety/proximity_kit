@@ -69,10 +69,13 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 |<p align="center"><img src="images/PK_MUV_sw_top_stuffed.jpg"></p>| <p align="center"><img src="images/PK_MUV_sw_bottom_stuffed.jpg"></p> |
 
 ### Battery cable
+The switch power is inserted in the power wire of the battery.
+Depending on the size of the case and the arrangements inside it, you could need to extend the power cable. This [tutorial](https://learn.adafruit.com/on-slash-off-switches) explains step-by-step how to wire the on/off switch, the material are part of the BOM.
 
 ### Assembly notes
 #### Buzzer
 On the PK_MUV pcb there two holes dedicated to the transducer element, depending on the model you can use both THT pads or just one.
+<p align="center"><img src="images/piezo_1.jpg" width="200">    <img src="images/piezo_2.jpg" width="200"></p>
 
 IMMAGINE PIEZO 1<br>
 IMMAGINE PIEZO 2
@@ -85,7 +88,6 @@ It is important to plug the connectors in the right orientation, in the photos b
 The PK_MUV uses female/male header to attach the different boards but it works also using different settings.
 You could solder all the components directly on the PK_MUV board to have a more compact and robust solution.
 You could also use jumper wires to place the pcb far from the main pcb.
-
 
 ### BOM notes
 Many items in the BOM can be bought only in minimum amount, when you actually are going to use one or two component. The total cost is therefore expressed as:
