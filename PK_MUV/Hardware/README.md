@@ -89,6 +89,8 @@ The PK_MUV uses female/male header to attach the different boards but it works a
 You could solder all the components directly on the PK_MUV board to have a more compact and robust solution.
 You could also use jumper wires to place the pcb far from the main pcb.
 
+<p align="center"><img src="images/PK_MUV_gif.gif" width="300"></p>
+
 ### BOM notes
 Many items in the BOM can be bought only in minimum amount, when you actually are going to use one or two component. The total cost is therefore expressed as:
 * total purchase: the cost of the purchase, buying the minimum amount per items
