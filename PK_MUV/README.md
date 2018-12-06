@@ -172,7 +172,11 @@ You can run the PK_MUV kit without battery and use the USB cable to supply it. I
 
 
 ## MUV Tags
-The Tags that have been successfully tested are NTAG213 and NTAG203, they are manufactured in different shapes: key-chain, sticker, business card and bracelet.
+The Tags that have been successfully tested are NTAG213 and NTAG203, they are manufactured in different shapes: key-chain, sticker, business card and bracelet.<br>
+<img src="images/tag_sticker.png" width="100">
+<img src="images/tag_bracialet.jpg" width="200">
+<img src="images/tag_card.jpg" width="100">
+ <br>
 To be able to use a Tag with the PK_MUV kit, you have to write in the Tag the MUV password and transform it in a Tag_MUV. On [this page](https://www.wakdev.com/en/apps.html) you find a list of apps to write NFC Tags but you also need a device to actually write the tag; in some cases the phone can do the job but in some other cases, for example if you have an iPhone6, you have to adopt an external device. During the testing phase of the PK_MUV, the ACR122 writer has been used with the desktop version of the software NFC tools.
 <p align="center"><img src="images/acr122.jpg"></p>
 How to use the ACR122 with NFC tools: [link](https://www.wakdev.com/en/apps/nfc-tools-pc-mac.html) To have access to the key, see section [Contacts](Contacts).
