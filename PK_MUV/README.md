@@ -110,7 +110,7 @@ and the kit will send to the MUV the following payload:
 
 {"id":1756474,"uid":"04:23:AB:32:EC:4C:81”}
 
-for details about the payload content, see [Uplinks](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV/Software#Uplinks).
+for details about the payload content, see [Uplinks](https://github.com/waag/proximity_kit/tree/master/PK_MUV/Software#Uplinks).
 
 The color code of the Tag Led is:<br>
 <img src="images/led_green.png" width="20"><img src="images/led_red.png" width="20"> : the tag doesn't have the credential of the MUV project.<br>
