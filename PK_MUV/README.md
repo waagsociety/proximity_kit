@@ -114,7 +114,7 @@ for details about the payload content, see [Uplinks](https://github.com/waagsoci
 
 The color code of the Tag Led is:<br>
 <img src="images/led_green.png" width="20"><img src="images/led_red.png" width="20"> : the tag doesn't have the credential of the MUV project.<br>
-<img src="images/led_green.png" width="20"><img src="images/led_blue.png" width="20"> : the tag was recognised as MUV, but the the kit couldn't connect to the WiFi.<br>
+<img src="images/led_green.png" width="20"><img src="images/led_blue.png" width="20"> : the tag was recognised as MUV, but the kit couldn't connect to the WiFi.<br>
 <img src="images/led_green.png" width="20"><img src="images/led_aqua.png" width="20"> : the tag was recognised as MUV, it could connect to the WiFi but it couldn't reach the MUV server.
 
 #### Check Routine
@@ -132,21 +132,6 @@ The feedback of the routine is visualised on the Config Led:<br>
 The message sent to the server is:<br>
 {"message":"check","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-59,"batt”:50}<br>
 for details about the payload content, see [Uplinks](https://github.com/waagsociety/proximity_kit/tree/master/PK_MUV/Software#Uplinks).
-
-#### Uplinks
-Depending by the triggered routines, the PK_MUV send three different messages to the MUV server (MQTT protocol). The topic is prox and the payloads, Jason format, are the following:
-
-{"message":"startup","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-52, "batt":50}<br>
-{"id":1756474,"uid":"04:23:AB:32:EC:4C:81”}<br>
-{"message":"check","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-59,"batt”:50}<br>
-
-message: triggered routine , start-up or check <br>
-id: chipID or PK_MUV ID <br>
-uid: Tag UID <br>
-location: location of the kit, to be inserted during configuration mode <br>
-rssi: rssi <br>
-batt: battery level in % <br>
-
 
 ## Power supply and Battery Led
 The PK_MUV kit runs on a rechargeable battery, a 2000mAh Lithium Ion Polymer cell last about 4 days when the PK_MUV kit works in operational mode. The status of the battery is visualised by the Batt Led:
