@@ -70,19 +70,19 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 
 ### Battery cable
 The switch power is inserted in the power wire of the battery.
-<p align="center"><img src="images/battery_1.jpg" width="200">       <img src="images/battery_2.jpg" width="200"></p>
+<p align="center"><img src="images/battery_1.jpg" width="300">       <img src="images/battery_2.jpg" width="300"></p>
 
 Depending on the size of the case and the arrangements inside it, you could need to extend the power cable. This [tutorial](https://learn.adafruit.com/on-slash-off-switches) explains step-by-step how to wire the on/off switch, the material are part of the BOM.
 
 ### Assembly notes
 #### Buzzer
 On the PK_MUV pcb there two holes dedicated to the transducer element, depending on the model and the wires,  you can use both THT pads or just one.
-<p align="center"><img src="images/piezo_1.jpg" width="200">       <img src="images/piezo_2.jpg" width="200"></p>
+<p align="center"><img src="images/piezo_1.jpg" width="300">       <img src="images/piezo_2.jpg" width="300"></p>
 
 #### Switches
 The connection of the switches to the main board happens with two IDC connectors and a four wires flat cable.
 It is important to plug the connectors in the right orientation, in the photos below you can see the alignment between the two boards.
-<p align="center"><img src="images/switches_1.jpg" width="200">       <img src="images/switches_2.jpg" width="200"></p>
+<p align="center"><img src="images/switches_1.jpg" width="300">       <img src="images/switches_2.jpg" width="300"></p>
 
 #### General overview
 The PK_MUV uses female/male header to attach the different boards but it works also using different settings.
