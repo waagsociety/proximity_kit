@@ -164,11 +164,11 @@ You can run the PK_MUV kit without battery and use the USB cable to supply it. I
 **Note**: when the USB cable is plugged, the kit operated continuously.
 
 Colour scale used during Check routine:
-* 100% > battery level >= 80%: Batt Led colour green
-* 80% > battery level >= 60%: Batt Led green/yellow
-* 60% > battery level >= 40%: Batt Led yellow.
-* 40% > battery level >= 20%: Batt Led orange.
-* 20% > battery level >= 0: Batt Led colour red.
+* <img src="images/led_green.png" width="20"> 100% > battery level >= 80%: Batt Led colour green
+* <img src="images/led_green_yellow.png" width="20"> 80% > battery level >= 60%: Batt Led green/yellow
+* <img src="images/led_yellow.png" width="20">  60% > battery level >= 40%: Batt Led yellow.
+* <img src="images/led_yellow_red.png" width="20">  40% > battery level >= 20%: Batt Led orange.
+* <img src="images/led_red.png" width="20" 20% > battery level >= 0: Batt Led colour red.
 
 ## MUV Tags
 The Tags that have been successfully tested are NTAG2013 and NTAG203, they are manufactured in different shapes: key-chain, sticker, business card and bracelet.
