@@ -140,7 +140,7 @@ Depending by the triggered routines, the PK_MUV send three different messages to
 {"id":1756474,"uid":"04:23:AB:32:EC:4C:81”}<br>
 {"message":"check","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-59,"batt”:50}<br>
 
-messagge: triggered routine , start-up or check <br>
+message: triggered routine , start-up or check <br>
 id: chipID or PK_MUV ID <br>
 uid: Tag UID <br>
 location: location of the kit, to be inserted during configuration mode <br>
