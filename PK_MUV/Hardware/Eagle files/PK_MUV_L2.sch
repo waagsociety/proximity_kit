@@ -900,13 +900,17 @@ chip</description>
 <pinref part="LED1" gate="G$1" pin="VDD"/>
 <wire x1="60.96" y1="45.72" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="55.88" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="55.88" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="55.88" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="55.88" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="50.8" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
 <junction x="73.66" y="55.88"/>
 <pinref part="C2" gate="G$1" pin="P$1"/>
 <pinref part="C1" gate="G$1" pin="P$1"/>
 <label x="76.2" y="55.88" size="1.778" layer="95"/>
+<pinref part="LED2" gate="G$1" pin="VDD"/>
+<wire x1="96.52" y1="45.72" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
+<junction x="96.52" y="55.88"/>
 </segment>
 </net>
 <net name="GND" class="1">
