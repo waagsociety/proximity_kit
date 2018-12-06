@@ -35,9 +35,9 @@ To get the MUV credentials and MUV password, please [contact](https://github.com
 #### Uplinks
 Depending by the triggered routines, the PK_MUV send three different messages to the MUV server (MQTT protocol). The topic is prox and the payloads, Jason format, are the following:
 
-{"message":"startup","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-52, "batt":50}<br>
-{"id":1756474,"uid":"04:23:AB:32:EC:4C:81”}<br>
-{"message":"check","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-59,"batt”:50}<br>
+- Start-up routine:<br> {"message":"startup","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-52, "batt":50}<br>
+- Tag routine:<br> {"id":1756474,"uid":"04:23:AB:32:EC:4C:81”}<br>
+- Check routine:<br> {"message":"check","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-59,"batt”:50}<br>
 
 messagge: triggered routine , start-up or check <br>
 id: chipID or PK_MUV ID <br>

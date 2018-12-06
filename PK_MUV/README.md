@@ -97,7 +97,7 @@ It will connect to the local WiFi, it will verify the connection with the server
 
 {"message":"startup","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-52, "batt":50}
 
-for details about the payload content, see [Uplinks](Uplinks).
+for details about the payload content, see [Uplinks](https://github.com/waagsociety/proximity_kit/tree/master/PK_MUV/Software#Uplinks).
 
 #### Tag Routine
 Tag Led : <img src="images/led_green.png" width="20"><img src="images/led_green.png" width="20"><img src="images/led_green.png" width="20"><br>
@@ -131,7 +131,7 @@ The feedback of the routine is visualised on the Config Led:<br>
 
 The message sent to the server is:<br>
 {"message":"check","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-59,"batt”:50}<br>
-for details about the payload content, see below.
+for details about the payload content, see [Uplinks](https://github.com/waagsociety/proximity_kit/tree/master/PK_MUV/Software#Uplinks).
 
 #### Uplinks
 Depending by the triggered routines, the PK_MUV send three different messages to the MUV server (MQTT protocol). The topic is prox and the payloads, Jason format, are the following:
