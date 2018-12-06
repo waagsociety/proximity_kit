@@ -168,7 +168,7 @@ Colour scale used during Check routine:
 * <img src="images/led_green_yellow.png" width="20"> 80% > battery level >= 60%: Batt Led green/yellow
 * <img src="images/led_yellow.png" width="20">  60% > battery level >= 40%: Batt Led yellow.
 * <img src="images/led_yellow_red.png" width="20">  40% > battery level >= 20%: Batt Led orange.
-* <img src="images/led_red.png" width="20" 20% > battery level >= 0: Batt Led colour red.
+* <img src="images/led_red.png" width="20"> 20%  battery level >= 0: Batt Led colour red.
 
 ## MUV Tags
 The Tags that have been successfully tested are NTAG213 and NTAG203, they are manufactured in different shapes: key-chain, sticker, business card and bracelet.
