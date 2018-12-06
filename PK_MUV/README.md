@@ -92,7 +92,7 @@ When the kit is operating and it has not been triggered by any tag, it will stay
 
 #### Start-up routine
 Config Led: <img src="images/led_green.png" width="20"><img src="images/led_green.png" width="20"><img src="images/led_green.png" width="20"><br>
-When the kit is powered-on or reseted, it runs a sequence of test to verify that the proper functionality.
+When the kit is powered-on or reseted, it runs a sequence of test to verify the proper functionality.
 It will connect to the local WiFi, it will verify the connection with the server MUV and it will send a start-up message. If the execution of the start-up routine is successful the Config Led blinks green light and the start-up message is sent to the MUV server:
 
 {"message":"startup","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-52, "batt":50}
@@ -130,7 +130,7 @@ The feedback of the routine is visualised on the Config Led:<br>
 <img src="images/led_green.png" width="20"><img src="images/led_aqua.png" width="20">: the kit can't reach the MUV server and the "check message" is not sent.
 
 The message sent to the server is:<br>
-{"message":"check","id":1756474,"location":"Funen","rssi":-59,"batt”:50}<br>
+{"message":"check","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-59,"batt”:50}<br>
 for details about the payload content, see below.
 
 #### Uplinks
@@ -155,6 +155,12 @@ The PK_MUV kit runs on a rechargeable battery, a 2000mAh Lithium Ion Polymer cel
 * 20% > battery level >= 10%: Batt Led blinks, colour red.
 * battery level < 10%: Batt Led is steady on, colour red.
 
+When the battery is between 96% and 20%, the Batt Led stays off, and to know its level you need to execute the Check Routine. Colour scale used during Check routine:
+* <img src="images/led_green.png" width="20"> 100% > battery level >= 80%: Batt Led colour green
+* <img src="images/led_green_yellow.png" width="20"> 80% > battery level >= 60%: Batt Led green/yellow
+* <img src="images/led_yellow.png" width="20">  60% > battery level >= 40%: Batt Led yellow.
+* <img src="images/led_yellow_red.png" width="20">  40% > battery level >= 20%: Batt Led orange.
+* <img src="images/led_red.png" width="20"> 20%  battery level >= 0: Batt Led colour red.
 
 When the Batt Led is red, the battery is almost empty. To recharge the internal battery you can use a micro USB cable and a +5V USB charger (the ones you use with phones are good), plug the cable to the USB port on the side of the kit. When the Batt Led is steady green, the battery is charged. While the kit is under charge, it still operates normally.
 
@@ -163,12 +169,7 @@ When the Batt Led is red, the battery is almost empty. To recharge the internal 
 You can run the PK_MUV kit without battery and use the USB cable to supply it. In this case it is recommended to disconnect the battery or leave the power switch in position OFF. In this setting, the Batt Led is steady off.<br>
 **Note**: when the USB cable is plugged, the kit operated continuously.
 
-Colour scale used during Check routine:
-* <img src="images/led_green.png" width="20"> 100% > battery level >= 80%: Batt Led colour green
-* <img src="images/led_green_yellow.png" width="20"> 80% > battery level >= 60%: Batt Led green/yellow
-* <img src="images/led_yellow.png" width="20">  60% > battery level >= 40%: Batt Led yellow.
-* <img src="images/led_yellow_red.png" width="20">  40% > battery level >= 20%: Batt Led orange.
-* <img src="images/led_red.png" width="20"> 20%  battery level >= 0: Batt Led colour red.
+
 
 ## MUV Tags
 The Tags that have been successfully tested are NTAG213 and NTAG203, they are manufactured in different shapes: key-chain, sticker, business card and bracelet.

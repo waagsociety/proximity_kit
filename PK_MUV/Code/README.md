@@ -6,9 +6,8 @@ The sketch includes the following libraries:
 * WiFiManager library: https://github.com/tzapu/WiFiManager
 * ArduinoJson library: https://github.com/bblanchon/ArduinoJson
 * PubSubClient library: https://github.com/knolleary/pubsubclient
-* Adafruit_NeoPixel library:
-* SPI library:
-* MFRC522 library:
+* Adafruit_NeoPixel library: https://github.com/adafruit/Adafruit_NeoPixel
+* MFRC522 library: https://github.com/miguelbalboa/rfid
 
 
 #### First upload
