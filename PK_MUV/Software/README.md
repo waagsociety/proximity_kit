@@ -32,6 +32,20 @@ byte key[] = {};    //MUV password
 
 To get the MUV credentials and MUV password, please [contact](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV#Contacts).
 
+#### Uplinks
+Depending by the triggered routines, the PK_MUV send three different messages to the MUV server (MQTT protocol). The topic is prox and the payloads, Jason format, are the following:
+
+{"message":"startup","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-52, "batt":50}<br>
+{"id":1756474,"uid":"04:23:AB:32:EC:4C:81”}<br>
+{"message":"check","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-59,"batt”:50}<br>
+
+messagge: triggered routine , start-up or check <br>
+id: chipID or PK_MUV ID <br>
+uid: Tag UID <br>
+location: location of the kit, to be inserted during configuration mode <br>
+rssi: rssi <br>
+batt: battery level in % when the devices is using the battery or charging the battery. If the kit is powered by the usb cable, the value of batt will be "usb"
+
 #### Debug
 You can use DEBUG variable to print on Serial Monitor debugging messages.
 
