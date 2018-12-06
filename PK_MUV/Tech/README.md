@@ -67,11 +67,26 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 | <p align="center"><img src="images/PK_MUV_sw_top_clean.jpg"></p>  | <p align="center"><img src="images/PK_MUV_sw_bottom_clean.jpg"></p>|
 |<p align="center"><img src="images/PK_MUV_sw_top_stuffed.jpg"></p>| <p align="center"><img src="images/PK_MUV_sw_bottom_stuffed.jpg"></p> |
 
-#### Battery cable
+### Battery cable
 
-#### Assembly note
+### Assembly note
+##### Buzzer
+On the PK_MUV pcb there two holes dedicated to the transducer element, depending on the model you can use both THT pads or just one.
 
-#### BOM notes
+IMMAGINE PIEZO 1<br>
+IMMAGINE PIEZO 2
+
+##### Switches
+The connection of the switches to the main board happens with two IDC connectors and a four wires flat cable.
+It is important to plug the connectors in the right orientation, in the photos below you can see the alignment between the two boards.
+
+#### General overview
+The PK_MUV uses female/male header to attach the different boards but it works also using different settings.
+You could solder all the components directly on the PK_MUV board to have a more compact and robust solution.
+You could also use Jumper wires to place the pcb far from the main pcb.
+
+
+### BOM notes
 Many items in the BOM can be bought only in minimum amount, when you actually are going to use one or two component. The total cost is therefore expressed as:
 * total purchase: the cost of the purchase, buying the minimum amount per items
 * cost of 1 kit: considering the cost of only the component used in the kit.
