@@ -175,4 +175,7 @@ How to use the ACR122 with NFC tools: [link](https://www.wakdev.com/en/apps/nfc-
 | Config Led is on: blue <br> <p align="center"> <img src="images/led_blue.png" width="20"> </p> | The kit is in Configuration mode.<br> Ready to be connected to the Local WiFi: [how](#Connect-the-PK-MUV-to-the-local-WiFi)  |
 
 ## Contacts
-To have access to the MUV password, please contact: XXX
+To have access to the MUV password, please contact: XXX. <br>
+If you have questions about the reproducion or makinf or code, you can use the issue format of the repo.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
