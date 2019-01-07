@@ -1,11 +1,9 @@
+
+# Making a case for the MUV proximity sensor #
 Prototyping 1 - 11/12/18 - 14/12/18
+by Conor Croasdell
 
-## **Making a case for the MUV proximity sensor:**
-
-
-
-
-**Proximity sensor, PCB + Components Dimensions:**
+## Proximity sensor, PCB + Components Dimensions ##
 
 Screw holes: 51.5mm x 38.75mm
 
@@ -13,7 +11,7 @@ H: 70mm
 
 W: 59mm x 59mm
 
-**Proximity Sensor Case, Key points for design:**
+## Proximity Sensor Case, Key points for design ##
 
 -Allow NFC to function
 
@@ -27,7 +25,7 @@ W: 59mm x 59mm
 
 -B,C and Tag LEDs all visible
 
-**Research and Preparation:**
+## Research and Preparation ##
 
 I chose 4mm poplar triplex as a material for the proximity sensor as I think it well suited to the intended application of the proximity sensor; they will be indoors and there will be many of them. The 4mm poplar triplex is a good value for its level of durability.
 
@@ -40,11 +38,11 @@ http://fab.academany.org/2018/labs/fablabuae/laser.html
 
 All of the designs here were made with the .15 (each side) kerf of my lasercutter, you will have to adjust the sizing of the joints for the characteristics of your lasercutter.
 
-## **Designing & Making:**
+## Designing & Making ##
 
-**Designing:**
+### Designing ###
 
-<p align="center"><img src="images/Sketch.jpg" width="300"></p>
+<p align="center"><img src="images/Sketch.jpg" width="600"></p>
 
 If I make the box with press-fit finger joints on all sides, then the enclosures can be stacked in the x and y axis, providing opportunity for expansions to the proximity sensor in the future.
 
@@ -71,7 +69,7 @@ Here is the plans for the final design of my case for the MUV proximity sensor:
 Each part of the design can be cut halfway and the joint pattern can be extended to make any height or width box.
 
 
-**Materials Needed:**
+### Materials Needed ###
 
 4mm triplex poplar (300mm x 320mm)
 
@@ -85,7 +83,7 @@ Small piece of double sided tape
 
 Sandpaper, CA glue and rubber hammer (if needed to help with assembly)
 
-**Making/ Instructions:** 
+### Making/ Instructions ###
 
 Step 0:
 
@@ -149,7 +147,7 @@ Attach the back plate halfway:
 Step 12:
 
 Insert the buttons into the back plate:
-<p align="center"><img src="images/Step 12.jpg" width="300"></p>
+<p align="center"><img src="images/step 12.jpg" width="300"></p>
 
 Step 13:
 
