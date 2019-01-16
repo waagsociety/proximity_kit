@@ -166,6 +166,16 @@ To be able to use a Tag with the PK_MUV kit, you have to write in the Tag the MU
 <p align="center"><img src="images/acr122.jpg"></p>
 How to use the ACR122 with NFC tools: [link](https://www.wakdev.com/en/apps/nfc-tools-pc-mac.html) To have access to the key, see section [Contacts](Contacts).
 
+## Known Issues
+
+There are some known issues we are working on to improve the case:
+
+- USB hole in case is not large enough for many sizes of USB connector
+- The USB port could be closer to the wall of the case
+- The buttons should be press fit into the case so that no glue is required
+- There should be letters engraved above the buttons to be able to tell which one is which
+- There should be 2 acrylic diffusers on the back side for the LEDs, one for each LED
+- The NFC sensor should be moved as close to the front wall as possible to improve the connection when the battery is low.
 
 ## Troubleshooting
 | Problem | Solution |
@@ -175,7 +185,7 @@ How to use the ACR122 with NFC tools: [link](https://www.wakdev.com/en/apps/nfc-
 | Config Led is on: blue <br> <p align="center"> <img src="images/led_blue.png" width="20"> </p> | The kit is in Configuration mode.<br> Ready to be connected to the Local WiFi: [how](#Connect-the-PK-MUV-to-the-local-WiFi)  |
 
 ## Contacts
-To have access to the MUV password, please contact: XXX. <br>
-If you have questions about the reproducion or makinf or code, you can use the issue format of the repo.
+To have access to the MUV password, please contact: stefano@waag.org <br>
+If you have questions about the reproducion or making or code, you can use the issue format of the repo.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
