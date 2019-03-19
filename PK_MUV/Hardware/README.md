@@ -28,9 +28,6 @@ Tools used:
 The files used on the machine are in the folder [Machinable files](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV/Tech/Machinable%20files).<br>
 The original Eagle files are in the [Eagle files](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV/Tech/Eagle%20files).
 
-The files used on the machine are in the folder [Machinable files](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV/Tech/Machinable%20files).<br>
-The original Eagle files are in the [Eagle files](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV/Tech/Eagle%20files).
-
 In Fablab Amsterdam the software to generate the rml file and send it to the machine is Fabmodules. It is highly recommended to use the last version of Fabmodules, aka mods http://mods.cba.mit.edu/; previous versions of fabmodules, still work but double check the output of the software before to send the job to the machine, in some cases the path is not well calculated.
 
 In the image below you find the setting to envrage the traces and to drill holes/cut the board.
