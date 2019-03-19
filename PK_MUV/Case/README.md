@@ -1,11 +1,6 @@
-Prox. Sensor: Prototyping 1 
+# Proximity Sensor Case Prototyping
 
-## **Making a case for the MUV proximity sensor:**
-
-
-
-
-**Proximity sensor, PCB + Components Dimensions:**
+**Proximity sensor, PCB + Components Dimensions**
 
 Screw holes: 51.5mm x 38.75mm
 
@@ -13,7 +8,7 @@ H: 70mm
 
 W: 59mm x 59mm
 
-**Proximity Sensor Case, Key points for design:**
+**Proximity Sensor Case, Key points for design**
 
 -Allow NFC to function
 
@@ -27,7 +22,7 @@ W: 59mm x 59mm
 
 -B,C and Tag LEDs all visible
 
-**Research and Preparation:**
+## Research and Preparation
 
 I chose 4mm (3.85mm nominal thickness) poplar triplex as a material for the proximity sensor as I think it well suited to the intended application of the proximity sensor; they will be indoors and there will be many of them. The 4mm poplar triplex is a good value for its level of durability.
 
@@ -40,14 +35,11 @@ http://fab.academany.org/2018/labs/fablabuae/laser.html
 
 All of the designs here were made with the .15 (each side) kerf of my lasercutter, you will have to adjust the sizing of the joints for the characteristics of your lasercutter.
 
-## **Designing & Making:**
+## Designing & Making
 
+### Designing
 
-
-
-**Designing:**
-
-**INSERT IMAGE "Sketch"**
+<p align="center"><img src="images/Sketch.jpg" width="600"></p>
 
 If I make the box with press-fit finger joints on all sides, then the enclosures can be stacked in the x and y axis, providing opportunity for expansions to the proximity sensor in the future.
 
@@ -55,7 +47,7 @@ For this project, I think its the most time effective to use an online lasercut 
 
 A quick google search gave me some online options for designing lasercut joints. I liked "makercase.com" because of its  simplicity and visual preview.
 
-**INSERT IMAGE "Makercase"**
+<p align="center"><img src="images/Makercase.png" width="600"></p>
 
 I used makercase to quickly design the joints of the box. The website allows you to enter the kerf of your lasecutter and adjusts the files it outputs to press fit together nicely.
 
@@ -63,19 +55,17 @@ I then edited the parts in illustrator to make the width of the joints the same 
 
 I cut out small sections of each part to check the fit without wasting much material: 
 
-**INSERT IMAGE "Tests"**
+<p align="center"><img src="images/Tests.jpg" width="600"></p>
 
 After I had the basic box shape, I measured and mapped out the required holes for the buttons and LEDs to be usable/ visable, again testing as I went.
 
 Here is the plans for the final design of my case for the MUV proximity sensor:
 
-**INSERT IMAGE "Plans"**
+<p align="center"><img src="images/Plans.png" width="600"></p>
 
 Each part of the design can be cut halfway and the joint pattern can be extended to make any height or width box.
 
-
-
-**Materials Needed:**
+### Materials Needed
 
 4mm triplex poplar (300mm x 320mm)
 
@@ -89,118 +79,117 @@ Small piece of double sided tape
 
 Sandpaper, CA glue and rubber hammer (if needed to help with assembly)
 
-**Making/ Instructions:** 
+### Making/ Instructions
 
 Step 0:
 
 Collect your parts:
-**INSERT IMAGE "Step 0"**
+<p align="center"><img src="images/Step 0.jpg" width="600"></p>
 
 Step 1:
 
 Add a piece of double sided tape to the back of the NFC sensor:
-
-**INSERT IMAGE "Step 1"**
+<p align="center"><img src="images/Step 1.jpg" width="600"></p>
 
 Step 2: 
 
 Stick battery to the back of NFC sensor as low down the sensor ass possible:
-**INSERT IMAGE "Step 2"**
+<p align="center"><img src="images/Step 2.jpg" width="600"></p>
 
 Step 3: 
 
 Screw the PCB to the the floor plate with the NFC sensor facing the arrow: 
-**INSERT IMAGE "Step 3"**
+<p align="center"><img src="images/Step 3.jpg" width="600"></p>
 
 Step 4:
 
 Insert Acrylic piece into the front plate:
-**INSERT IMAGE "Step 4"**
+<p align="center"><img src="images/Step 4.jpg" width="600"></p>
 
 Step 5:
 
 Add a piece of double sided tape to the top of the front of the NFC sensor
-**INSERT IMAGE "Step 5"**
+<p align="center"><img src="images/Step 5.jpg" width="600"></p>
 
 Step 6:
 
 Attach the front plate with the NFC symbol and stick the NFC sensor to the front plate to keep it close against the front plate:
-**INSERT IMAGE "Step 6"**
+<p align="center"><img src="images/Step 6.jpg" width="600"></p>
 
 Step 7:
 
 Attach the side plate with the holes for the USB and ON/OFF switches:
-**INSERT IMAGE "Step 7"**
+<p align="center"><img src="images/Step 7.jpg" width="600"></p>
 
 Step 8:
 
 Press fit the ON/OFF switch into its hole:
-**INSERT IMAGE "Step 8"**
+<p align="center"><img src="images/Step 8.jpg" width="600"></p>
 
 Step 9: 
 
 Attach the side plate without any holes halfway:
-**INSERT IMAGE "Step 9"**
+<p align="center"><img src="images/Step 9.jpg" width="600"></p>
 
 Step 10:
 
 Insert the top plate with the hole for the lid and fully attach the side plate from the previous step:
-**INSERT IMAGE "Step 10"**
+<p align="center"><img src="images/Step 10.jpg" width="600"></p>
 
 Step 11:
 
 Insert the 2 frosted acrylic pieces for the reset and config LEDs:
-**INSERT IMAGE "Step 11"**
+<p align="center"><img src="images/Step 11.jpg" width="600"></p>
 
 Step 12:
 
 Attach the back plate halfway:
-**INSERT IMAGE: "Step 12"**
+<p align="center"><img src="images/Step 12.jpg" width="600"></p>
 
 Step 13:
 
 Press fit the reset and config switches into their holes:
-**INSERT IMAGE "Step 13"**
+<p align="center"><img src="images/Step 13.jpg" width="600"></p>
 
 Step 14: 
 
 They should fit like this:
-**INSERT IMAGE " Step 14"**
+<p align="center"><img src="images/Step 14.jpg" width="600"></p>
 
 Step 15: 
 
 Attach the speaker with the 2 m3 x 20 screws and the 2 nuts:
-**INSERT IMAGE "Step 15"**
+<p align="center"><img src="images/Step 15.jpg" width="600"></p>
 
 Step 16:
 
 Gather the 3 lid parts:
-**INSERT IMAGE " Step 16"**
+<p align="center"><img src="images/Step 16.jpg" width="600"></p>
 
 Step 17:
 
 Join the middle and top pieces of the lid:
-**INSERT IMAGE "Step 17"**
+<p align="center"><img src="images/Step 17.jpg" width="600"></p>
 
 Step 18:
 
 Attach the bottom of the lid:
-**INSERT IMAGE "Step 18"**
+<p align="center"><img src="images/Step 18.jpg" width="600"></p>
 
 Step 19:
 
 Insert the whole lid into the top plate of the box and turn to close:
-**INSERT IMAGE "Step 19"**
+<p align="center"><img src="images/Step 19.jpg" width="600"></p>
 
 Step 20:
 
 Attach the bottom cover like you did the other panels, with one side first as in the photo and then the other 3:
-**INSERT IMAGE "Step 20"**
+<p align="center"><img src="images/Step 20.jpg" width="600"></p>
 
 Step 21:
 
 Sit back and admire your finished MUV Proximity Sensor case!
-**INSERT IMAGE "Step 21"**
+<p align="center"><img src="images/Step 21.jpg" width="600"></p>
 
 
 
