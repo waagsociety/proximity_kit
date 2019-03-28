@@ -30,7 +30,7 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 
 In Fablab Amsterdam the software to generate the rml file and send it to the machine is Fabmodules. It is highly recommended to use the last version of Fabmodules, aka mods http://mods.cba.mit.edu/; previous versions of fabmodules, still work but double check the output of the software before to send the job to the machine, in some cases the path is not well calculated.
 
-In the image below you find the setting to envrage the traces and to drill holes/cut the board.
+In the image below you find the setting to engrave the traces, drill holes and cutout the board.
 <img src="images/config_traces.png" width="500"><br>
 <img src="images/config_outlines.png" width="500">
 
